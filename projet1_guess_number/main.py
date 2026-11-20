@@ -1,6 +1,6 @@
 import random
 
-print("Hello Player , welcome to the Guess Number Game!")
+print("bonjour!")
 number_to_guess = random.randint(1, 100) # the machine choose a number between 1 and 100
 attempts = 0 # initialization of a Number of attempts
 
@@ -13,7 +13,7 @@ while attempts < 7:
         continue # restart the loop imediatly to let the User try again
 
     if not 1 <= number <= 100:
-        print("the number must between 1 and 100.")
+        print("the number must between 1 and  .")
         continue # restart the loop to let the user choose a valid number
 
     attempts += 1 
